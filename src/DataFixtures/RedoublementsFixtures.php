@@ -3666,6 +3666,7 @@ class RedoublementsFixtures extends Fixture implements DependentFixtureInterface
         $redoublement1->addScolarites1($scolarite1);
         $redoublement1->addScolarites2($scolarite2);
         $manager->persist($redoublement1);
+
     }
     private function configRedoublement2(ObjectManager $manager, $niveau, $redoublement2, $redoublement1, $scolarite1, $scolarite2)
     {
